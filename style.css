@@ -99,7 +99,7 @@ button,
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
 }
 
 .box {
@@ -130,7 +130,7 @@ button,
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .quote-content {
@@ -146,12 +146,44 @@ button,
     font-size: 32px;
     font-style: italic;
     font-weight: lighter;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .quote-author {
     font-size: 22px;
     font-weight: bold;
     align-self: flex-end;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+/* sign-up */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    padding: 40px 20px;
+    margin: 70px 0;
+    background-color: #3882f6;
+    flex-basis: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-title {
+    color:#f9faf8 ;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sign-up-subtext {
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.sign-up-button {
+    border-color: #f9faf8;
 }
