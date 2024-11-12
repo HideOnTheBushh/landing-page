@@ -122,3 +122,36 @@ button,
     color: #404141;
     text-align: center;
 }
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 700px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
